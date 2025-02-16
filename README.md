@@ -1,6 +1,6 @@
 @Author:MeJustMeLOL
 # GCC-ARM-Linker_Python-
-This is just an idea when the IDE asks me for $99 to compile code bigger than 120k lines.
+This is just an idea when the IDE asks me for $99 to compile code bigger than 120k lines. \n
 Warnning 1 : the module dont have  Debug itself  ,so use it caution .
 Warning 2 : i just test on code base created by Stm32Mx , and Keli package . in  Others case is beyone my expectation .
 about the project  it base on  2  observable  from  CMD sytax and Linker , here is description  :
