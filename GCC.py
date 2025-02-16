@@ -6,24 +6,38 @@ import subprocess
 # -------------------------------
 
 # The root of your project source files.
-project_dir = r""
+project_dir = r"D:\stm32\myproject\Gyro_read"
 
 # Directories to exclude from scanning
 EXCLUDE_DIRS = [
-    r"",
-
+    r"D:\stm32\myproject\Gyro_read\Drivers\CMSIS\Core\Template",
+    r"D:\stm32\myproject\Gyro_read\Drivers\CMSIS\DSP\DSP_Lib_TestSuite\Common\platform",
+    r"D:\stm32\myproject\Gyro_read\Drivers\CMSIS\NN",
+    r"D:\stm32\myproject\Gyro_read\Drivers\CMSIS\Core_A",
+    r"D:\stm32\myproject\Gyro_read\Drivers\CMSIS\DSP",
+    r"D:\stm32\myproject\Gyro_read\Drivers\CMSIS\RTOS2",
+    r"D:\stm32\myproject\Gyro_read\Drivers\mpu_driver",
+    r"D:\stm32\myproject\Gyro_read\Drivers\storage",
+    r"D:\stm32\myproject\Gyro_read\EWARM",
 ]
 
 # Files to exclude from scanning (by filename substring)
 EXCLUDE_FILES = [
     r"_template.c",     # skip any file containing _template.c
+    r"armlib_lock_glue.c",
+    r"cc932.c",
+    r"cc936.c",
+    r"cc949.c",
+    r"cc950.c",
+    r"ccsbcs.c",
     # Add other filenames/patterns as needed.
 ]
 
 # Base directories for external/system headers
 SYSTEM_DIRS = [
-    r"",
-
+    r"C:/Users/tranj/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include",
+    r"C:/Users/tranj/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include",
+    r"C:/Users/tranj/AppData/Local/Arm/Packs/ARM",
 ]
 
 # User include directories (if needed)
@@ -166,7 +180,7 @@ def main():
     project_include_dirs = find_include_dirs(header_files)
 
     # Specify the output directory for compiled object files.
-    output_dir = r"....\dum_folder" # your path as output
+    output_dir = r"D:\stm32\myproject\Gyro_read\Core\Src\dum_folder"
     os.makedirs(output_dir, exist_ok=True)
 
     # Compile the source files.
