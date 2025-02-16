@@ -38,5 +38,9 @@ The module design following the work flow  :
 
         print(f"Compilation and linking complete. HEX file generated: {output_hex}")
 
+result  :
+
+
+![image](https://github.com/user-attachments/assets/b9a0c88e-80d1-4fa7-bb35-8c25250074ed)
 
 @cheer ! 
