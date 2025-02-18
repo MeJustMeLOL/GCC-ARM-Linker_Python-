@@ -57,8 +57,7 @@ Okie let boot the code
 
 3. size comparation 
 
-Mine : 69kb
-
-Keil : 50kb 
-it s a huge gape i will optimize  it latter , but i dont know how KKKKKKKKKKKKKKK. thanks for reading 
+  Mine : 69kb     ||||||||||||    Keil : 50kb 
+  
+  it s a huge gape i will optimize  it latter , but i dont know how KKKKKKKKKKKKKKK. thanks for reading 
 @cheer ! 
