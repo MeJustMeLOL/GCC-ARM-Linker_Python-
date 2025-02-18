@@ -38,10 +38,24 @@ The module design following the work flow  :
 
         print(f"Compilation and linking complete. HEX file generated: {output_hex}")
 
-result  :
 
 
+1. failed result
+      
+      ![image](https://github.com/user-attachments/assets/12711e79-7145-4821-9f11-8098835b5b3d)
+      
+     Reason : linker scripts  is missing it leading to stm32link can boot the code
 
-![image](https://github.com/user-attachments/assets/12711e79-7145-4821-9f11-8098835b5b3d)
+2. try again
 
+   ![image](https://github.com/user-attachments/assets/4493e4f6-c398-4a6e-8514-91a837b49217)
+
+Okie let boot the code 
+
+![image](https://github.com/user-attachments/assets/c374d56b-1573-4e2c-b37b-4c807320f88e)
+
+3. size comparation 
+Mine : 69kb
+Keil : 50kb 
+it s a huge gape i will optimize  it latter , but i dont know how KKKKKKKKKKKKKKK. thanks for reading 
 @cheer ! 
