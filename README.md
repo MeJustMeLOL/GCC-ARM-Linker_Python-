@@ -52,10 +52,13 @@ The module design following the work flow  :
 
 Okie let boot the code 
 
-![image](https://github.com/user-attachments/assets/c374d56b-1573-4e2c-b37b-4c807320f88e)
+![image](https://github.com/user-attachments/assets/aed94631-ec40-4b87-a40e-0d7d7cdf85b6)
+
 
 3. size comparation 
+
 Mine : 69kb
+
 Keil : 50kb 
 it s a huge gape i will optimize  it latter , but i dont know how KKKKKKKKKKKKKKK. thanks for reading 
 @cheer ! 
