@@ -44,7 +44,7 @@ The module design following the work flow  :
       
       ![image](https://github.com/user-attachments/assets/12711e79-7145-4821-9f11-8098835b5b3d)
       
-     Reason : linker scripts  is missing it leading to stm32link can boot the code
+     Reason : linker scripts  is missing it leading to stm32link cant boot the code
 
 2. try again
 
